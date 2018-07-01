@@ -23,7 +23,8 @@
     "dev": "yarn run clean && tsc -w",
     "prepublishOnly": "yarn run test",
     "lint": "tslint --project tsconfig.json --config tslint.json",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "benchmark": "node ./benchmarks/bench.js"
   },
   "engines": {
     "node": ">=6.0.0"
