@@ -35,4 +35,6 @@ export function insertToSortedArray<T>(array: T[], element: T, compareFn: (a: T,
 
   const insertIndex = binaryInsertionSearch(array, element, compareFn);
   array.splice(insertIndex, 0, element);
+
+  return array;
 }
