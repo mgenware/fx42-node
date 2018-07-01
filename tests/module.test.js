@@ -3,7 +3,7 @@ const fs = require('fs');
 
 describe('require this module', () => {
   test('Verify module members', () => {
-    expect(typeof main.binaryInsertSearch).toBe('function');
+    expect(typeof main.binaryInsertionSearch).toBe('function');
   });
 
   test('Verify type definition files', () => {
