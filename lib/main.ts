@@ -24,3 +24,15 @@ export function binaryInsertionSearch<T>(
   }
   return i;
 }
+
+export function insertToSortedArray<T>(array: T[], element: T, compareFn: (a: T, b: T) => number) {
+  if (!Array.isArray(array)) {
+    throw new Error(`The argument "array" is not an array, got: ${array}`);
+  }
+  if (!compareFn) {
+    throw new Error('The argument "compareFn" cannot be empty');
+  }
+
+  const insertIndex = binaryInsertionSearch(array, element, compareFn);
+  array.splice(insertIndex, 0, element);
+}
