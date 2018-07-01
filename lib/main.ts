@@ -1,4 +1,4 @@
-export function binaryInsertSearch<T>(
+export function binaryInsertionSearch<T>(
   array: T[],
   target: T,
   compareFn: (a: T, b: T) => number,
