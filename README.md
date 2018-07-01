@@ -1,8 +1,8 @@
-# node-boilerplate
+# fx42-node
 
 [![MEAN Module](https://img.shields.io/badge/MEAN%20Module-TypeScript-blue.svg?style=flat-square)](https://github.com/mgenware/MEAN-Module)
-[![Build Status](https://img.shields.io/travis/mgenware/layit.svg?style=flat-square&label=Build+Status)](https://travis-ci.org/mgenware/layit)
-[![npm version](https://img.shields.io/npm/v/layit.svg?style=flat-square)](https://npmjs.com/package/layit)
-[![Node.js Version](http://img.shields.io/node/v/layit.svg?style=flat-square)](https://nodejs.org/en/)
+[![Build Status](https://img.shields.io/travis/mgenware/fx42-node.svg?style=flat-square&label=Build+Status)](https://travis-ci.org/mgenware/fx42-node)
+[![npm version](https://img.shields.io/npm/v/fx42-node.svg?style=flat-square)](https://npmjs.com/package/fx42-node)
+[![Node.js Version](http://img.shields.io/node/v/fx42-node.svg?style=flat-square)](https://nodejs.org/en/)
 
-TypeScript Node.js modules boilerplate. (The badges above are for demonstration purposes only)
+Sorted array in JavaScript.
