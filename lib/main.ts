@@ -25,7 +25,11 @@ export function binaryInsertionSearch<T>(
   return i;
 }
 
-export function insertToSortedArray<T>(array: T[], element: T, compareFn: (a: T, b: T) => number) {
+export function insertToSortedArray<T>(
+  array: T[],
+  element: T,
+  compareFn: (a: T, b: T) => number,
+) {
   if (!Array.isArray(array)) {
     throw new Error(`The argument "array" is not an array, got: ${array}`);
   }
