@@ -1,6 +1,6 @@
 {
   "name": "fx42-node",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Sorted array in JavaScript",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
